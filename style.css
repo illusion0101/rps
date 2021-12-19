@@ -1,0 +1,36 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background: #2D2424;
+    font-size: 30px;
+    text-align: center;
+    color: #f2ddc2;
+}
+
+.header{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.rps-image{
+    border-radius: 7px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin: 0.5em; */
+    border-radius: 6px;
+    border: none;
+    height: 44px;
+    width: auto;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
